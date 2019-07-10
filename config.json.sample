@@ -1,0 +1,11 @@
+{
+    "wifi": {
+        "ssid": "YOUR-SSID",
+        "password": "changeme"
+    },
+    "hec": {
+        "url": "http://127.0.0.1:8088/services/collector/event",
+        "token": "changeme",
+        "hostname": "M5Stack"
+    }
+}
