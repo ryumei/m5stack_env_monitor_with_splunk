@@ -21,7 +21,16 @@ $ ampy put config.json
 ### reference libraries
 * [`urequests`](https://github.com/micropython/micropython-lib/blob/master/urequests/urequests.py)
 
+
+## Splunk
+
+You can visualize measured data with Splunk.
+
+![screenshot](image/screenshot.png)
+
+
 ### Splunk
+
 ```
 | mstats avg(_value) span=10min WHERE metric_name=* AND index=atmosphere BY metric_name, host, sensor
 ```
